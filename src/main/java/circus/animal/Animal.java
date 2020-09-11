@@ -1,6 +1,6 @@
-package circus.animal;
+package Circus.animal;
 
-import circus.Asset;
+import Circus.Asset;
 
 public abstract class Animal implements Asset {
     

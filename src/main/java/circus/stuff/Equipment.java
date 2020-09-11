@@ -1,6 +1,6 @@
-package circus.stuff;
+package Circus.stuff;
 
-import circus.Asset;
+import Circus.Asset;
 
 public abstract class Equipment implements Asset {
     protected int purchasePrice;

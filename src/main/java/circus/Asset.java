@@ -1,4 +1,4 @@
-package circus;
+package Circus;
 
 public interface Asset {
     int getValue();
