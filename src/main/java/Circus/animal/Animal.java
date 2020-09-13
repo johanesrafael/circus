@@ -1,15 +1,18 @@
 package Circus.animal;
 
-import Circus.*;
+import Circus.Asset;
 
-public class Animal implements Asset{
-    
-    public String speak(){
-        return null;
-    }
+import java.util.Comparator;
 
-    @Override
-    public int getValue() {
-        return 20;
-    }
+public abstract class Animal implements Asset {
+    public String name;
+
+    public abstract String speak();
+
+    public static Comparator<Animal> compareByName = new Comparator<Animal>() {
+        @Override
+        public int compare(Animal a1, Animal a2) {
+            return a1.name.toLowerCase().compareTo(a2.name.toLowerCase());
+        }
+    };
 }
