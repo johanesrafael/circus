@@ -1,6 +1,5 @@
 package Circus;
 
-
 import Circus.animal.Animal;
 import Circus.animal.Duck;
 import Circus.animal.Parrot;

@@ -1,7 +1,5 @@
 package Circus.stuff;
 
-import Circus.animal.Animal;
-
 public class Cage<T> {
     private T t;
 
