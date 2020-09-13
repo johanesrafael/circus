@@ -1,4 +1,4 @@
-package Circus.stuff;
+package circus.stuff;
 
 public class Cannon extends Equipment {
 
