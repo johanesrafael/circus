@@ -1,5 +1,6 @@
 package Circus.stuff;
 
+// Cage
 public class Cage<T> {
     private T t;
 
